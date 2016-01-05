@@ -1,15 +1,4 @@
-# Planning the application
-  1. Answer Questions  
-      - What am I building?  
-      - Who am I building it for?  
-      - what features does it need to have?  
-  2. User Stories
-  3. Model the Data
-  4. Think through the pages we need in the app
-
-
 ## Questions
-
 
    1. What am I building?  
 I am building a personal site. A place where I can blog, share examples of my work, and have people contact me.
