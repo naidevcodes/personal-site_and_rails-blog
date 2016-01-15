@@ -1,0 +1,33 @@
+<div class="wrapper wrapper_padding clearfix">
+  <div class="col-1 about homepage_content">
+    <h2>About me</h2>
+    <hr>
+    <p>I'm a <a href="https://en.wikipedia.org/wiki/Psychonautics" target="_blank">psychonautic</a>, quadcopter flying, level 1 web developer currently residing in Seattle, Wash.</p>
+    <p>Dialing in my skills every day. I work with HTML5, CSS3, JS and JQuery, Wordpress, Ruby/Rails, and now SASS (which is awesome).</p>
+    <p>When Im not learning code or procrasti-gramming, You can find me sitting in a sauna (or in ceremony), or hiking through some old growth.<br /> I eat lots of veggies and drink lots of Guayusa.</p>
+    <p>"Creation is the way we wake up Divinity,<br />
+    Love is the Medicine"</p>
+  </div>
+
+  <div class="col-2 homepage_content">
+    <h2>On the Blog</h2>
+    <hr>
+
+    <% @posts.each do |post| %>
+      <h3><a href="#"><%= link_to post.title, post %></a></h3>
+    <p class="date"><%= post.created_at.strftime("%A, %b %d") %></p>
+    <%end%>
+  </div>
+
+  <div class="col-3 homepage_content">
+    <h2>I Built This</h2>
+    <hr>
+    <h3><a href="#">POOTTRR</a></h3>
+    <p class="date">June, 5th</p>
+    <h3><a href="#">RAD-LIB</a></h3>
+    <p class="date">July 10th</p>
+    <h3><a href="#">Readthat</a>: a reddit clone</h3>
+    <p class="date">August 5th</p>
+  </div>
+  </div>
+</div>
