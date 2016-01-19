@@ -34,11 +34,11 @@ I am building a personal site. A place where I can blog, share examples of my wo
 
 ## Modeling the Data
 
-  **Post**
+  **Post**  
     title:string
     content:string
 
-  **Project**
+  **Project**  
     title:string
     description:text
     link:string
