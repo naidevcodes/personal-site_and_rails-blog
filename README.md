@@ -35,12 +35,12 @@ I am building a personal site. A place where I can blog, share examples of my wo
 ## Modeling the Data
 
   **Post**  
-    title:string
+    title:string  
     content:string
 
   **Project**  
-    title:string
-    description:text
+    title:string  
+    description:text  
     link:string
 
   **User**
